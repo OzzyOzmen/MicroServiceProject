@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.REPOSITORY/WebPage.REPOSITORY.csproj": {}
+  },
+  "projects": {
+    "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.DTO/WebPage.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.DTO/WebPage.DTO.csproj",
+        "projectName": "WebPage.DTO",
+        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.DTO/WebPage.DTO.csproj",
+        "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.DTO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.ORM/WebPage.ORM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.ORM/WebPage.ORM.csproj",
+        "projectName": "WebPage.ORM",
+        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.ORM/WebPage.ORM.csproj",
+        "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.ORM/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.REPOSITORY/WebPage.REPOSITORY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.REPOSITORY/WebPage.REPOSITORY.csproj",
+        "projectName": "WebPage.REPOSITORY",
+        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.REPOSITORY/WebPage.REPOSITORY.csproj",
+        "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.REPOSITORY/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.DTO/WebPage.DTO.csproj": {
+                "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.DTO/WebPage.DTO.csproj"
+              },
+              "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.ORM/WebPage.ORM.csproj": {
+                "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebPage/WebPage.ORM/WebPage.ORM.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

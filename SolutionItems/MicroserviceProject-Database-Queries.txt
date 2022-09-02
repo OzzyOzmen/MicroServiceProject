@@ -1,0 +1,72 @@
+Microservice Project Database 
+----------------------------------------------
+
+CREATE TABLE Category(
+    Id int NOT NULL IDENTITY(1,1),
+    CategoryName NVARCHAR(250) NOT NULL
+    PRIMARY KEY (Id)
+) 
+
+GO
+
+
+CREATE TABLE Post(
+    Id int NOT NULL IDENTITY(1,1),
+    UserId int NOT NULL,
+    Source NVARCHAR(250) NOT NULL,
+    Thumbnail NVARCHAR(250) NOT NULL,
+    CreatedDate datetime NOT NULL,
+    RatingCount int NOT NULL,
+    CategoryId int NOT NULL,
+    PRIMARY KEY (Id)
+) 
+
+GO
+CREATE TABLE PinnedPost
+(
+   Id int NOT NULL IDENTITY(1,1),
+   UserId int NOT NULL,
+   PostId int NOT NULL,
+   PRIMARY KEY (Id)
+    
+) 
+
+GO
+
+   
+CREATE TABLE Follow
+(
+    Id INT NOT NULL Identity(1,1), 
+    FollowerId INT NOT NULL,
+    FollowedId INT NOT NULL
+    PRIMARY KEY(Id)
+)
+
+Go
+
+CREATE TABLE Notifications(
+    Id int NOT NULL IDENTITY(1,1),
+    PostId int NOT NULL,
+    Notifications NVARCHAR(250) NOT NULL,
+    PinnedVideosId int NOT NULL,
+    FollowerId int NOT NULL,
+    FollowedUserId int NOT NULL,
+    RatingId int NOT NULL
+    PRIMARY KEY (Id)
+)
+
+CREATE TABLE Rating(
+    Id int NOT NULL IDENTITY(1,1),
+    RatingCount int NOT NULL,
+    PostId int NOT NULL,
+    PRIMARY KEY (Id)
+) 
+
+// Net Scaffold Connection String for win
+
+Scaffold-DbContext "Server=sserveraddress;Database=dbname;User=username;Password=password;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data -Context MicroServiceDBContext
+
+// Net Scaffold Connection String for M1 Silicon macOS
+dotnet ef dbcontext scaffold "Server=localhost;Database=dbName;user=dbUser;Password=dbPassword;" "Microsoft.EntityFrameworkCore.SqlServer" -o Data -c DbContext
+
+
