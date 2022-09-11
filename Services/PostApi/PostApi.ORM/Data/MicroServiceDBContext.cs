@@ -25,7 +25,7 @@ namespace PostApi.ORM.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-            {optionsBuilder.UseSqlServer("Server=sql.zeus.domainhizmetleri.net;Database=aquafabu_microservice;user=aquafabu_microservice;Password=Microservice.3535;");
+            {optionsBuilder.UseSqlServer("Server=DbAddress; Database=db_name; User Id=user_name; Password=userpassword; Integrated Security=False;");
             }
         }
 
