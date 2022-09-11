@@ -45,10 +45,11 @@ namespace EventBus.Base.Events
             return $"{eventBusConfig.SubscribeClientAppName}.{ProcessEventName(eventName)}";
         }
 
-        // we Dispose to empty eventbusConfig. Also set it as virtual to override it.
+        // we Dispose to empty eventbusConfig and subManager. Also set it as virtual to override it.
         public virtual void Dispose()
         {
             eventBusConfig = null;
+            subsManager.Clear();
         }
 
         // Processing the event.
@@ -104,6 +105,7 @@ namespace EventBus.Base.Events
 
         public abstract void UnSubscribe<T, Thandler>() where T : IntegrationEvent where Thandler : IIntegrationEventHandler<T>;
 
+       
     }
 }
 

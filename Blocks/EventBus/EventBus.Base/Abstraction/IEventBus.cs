@@ -8,7 +8,7 @@ namespace EventBus.Base.Abstraction
     // Also we will create it for Azure and RabbitMQ both as Azure eventbus and RabbitMQbus.
     // And these both busses will use this interface for implementation.
    // there will be only these 3 methods below
-    public interface IEventBus
+    public interface IEventBus: IDisposable
     {
        // Services will use this method when throwing an event and event will be type of integrationevent. There for we set integration event as Parameter in method.
         void Publish(IntegrationEvent @event);
