@@ -15,7 +15,7 @@ namespace EventBus.Base.Events
         // Also we call ServiceProvider to use CreateScope method.
         public readonly IServiceProvider ServiceProvider;
         public readonly IEventBusSubscriptionManager subsManager;
-        private EventBusConfig eventBusConfig;
+        public EventBusConfig eventBusConfig { get; set; }
 
         // set constructure with parameters and equaling them with the interfaces and config
         public BaseEventBus(EventBusConfig config, IServiceProvider serviceProvider)

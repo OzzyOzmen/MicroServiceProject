@@ -11,7 +11,7 @@ namespace EventBus.Base.SubscriptionManager
         // this dictonary will store the handlers.
         private readonly Dictionary<string, List<SubscriptionInfo>> _handlers;
 
-        // this dictonary will store the event typess.
+        // this List will store the event typess.
         private readonly List<Type> _eventTypes;
 
         // 

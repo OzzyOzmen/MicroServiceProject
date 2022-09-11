@@ -5,10 +5,10 @@ namespace EventBus.Base
     public class EventBusConfig
     {
         // Tries only 5 times to connect to the RabbitMQ when any connection problem comes out.
-        public int ConnectionRetryCound { get; set; } = 5;
+        public int ConnectionRetryCount { get; set; } = 5;
 
         // We will create ques more then one under the DefaultTopicName.And when topicname doesnt exist then equal it with default name as set below.
-        public string DefaultTopicNane { get; set; } = "MicroService EventBus";
+        public string DefaultTopicName { get; set; } = "MicroService EventBus";
 
         // This is connection string.
         public string EventBusConnectionString { get; set; } = string.Empty;

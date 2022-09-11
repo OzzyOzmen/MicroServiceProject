@@ -1,14 +1,24 @@
 ﻿<Properties StartupConfiguration="{DEC64BCE-2BCC-4E04-AFE6-2AC7841F7469}|Default">
-  <MonoDevelop.Ide.ItemProperties.ApiGateway.ApiGateway PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.UserApi.Users.Api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.PostApi.PostApi.PostApi PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blocks/EventBus/EventBus.AzureServiceBus/EventBusAzureService.cs">
+    <Files>
+      <File FileName="Blocks/EventBus/EventBus.AzureServiceBus/EventBusAzureService.cs" Line="27" Column="10" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MicroServiceProject" expanded="True" />
+          <Node name="MicroServiceProject" expanded="True">
+            <Node name="ApiGateway" expanded="True" />
+            <Node name="Blocks" expanded="True">
+              <Node name="EventBus" expanded="True">
+                <Node name="EventBus.AzureServiceBus" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -16,9 +26,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Services.UserApi.Users.Api PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.Services.PostApi.PostApi.PostApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.ApiGateway.ApiGateway PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Services.NotificationApi.NotificationApi.NotificationApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

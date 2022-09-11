@@ -16,14 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		SolutionItems\MicroserviceProject-Database-Queries.txt = SolutionItems\MicroserviceProject-Database-Queries.txt
 	EndProjectSection
 EndProject
-
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.AzureService", "Blocks\EventBus\EventBus.AzureService\EventBus.AzureService.csproj", "{7DD7C0DE-DA72-416D-88FB-4CBF77330778}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.AzureServiceBus", "Blocks\EventBus\EventBus.AzureService\EventBus.AzureServiceBus.csproj", "{7DD7C0DE-DA72-416D-88FB-4CBF77330778}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Base", "Blocks\EventBus\EventBus.Base\EventBus.Base.csproj", "{9574F7A7-5992-4DAB-8F99-5D2882AA4121}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Factory", "Blocks\EventBus\EventBus.Factory\EventBus.Factory.csproj", "{C751F461-9642-4ECC-964B-F5FD33FCA30D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.MongoDbService", "Blocks\EventBus\EventBus.MongoDbService\EventBus.MongoDbService.csproj", "{72750561-1AFC-4CEB-A680-641A82646D80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.MongoDbServiceBus", "Blocks\EventBus\EventBus.MongoDbService\EventBus.MongoDbServiceBus.csproj", "{72750561-1AFC-4CEB-A680-641A82646D80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.RabbitMQ", "Blocks\EventBus\EventBus.RabbitMQ\EventBus.RabbitMQ.csproj", "{64B2CC85-105D-4596-BF32-1FD8CAB45E92}"
 EndProject
@@ -53,7 +52,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.REPOSITORY", "WebApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.SERVICES", "WebApp\WebApp.SERVICES\WebApp.SERVICES.csproj", "{4FFCC33E-A048-4302-A206-405C4CC52A9C}"
 EndProject
-
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationApi.DTO", "Services\NotificationApi\NotificationApi.DTO\NotificationApi.DTO.csproj", "{65BF66DA-15A2-425C-A7D0-C487AB060672}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationApi.INFRASTRUCTURE", "Services\NotificationApi\NotificationApi.INFRASTRUCTURE\NotificationApi.INFRASTRUCTURE.csproj", "{31A8F302-80D0-4286-9AE8-835A6461F201}"
