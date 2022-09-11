@@ -1,5 +1,5 @@
 # MicroServiceProject
-<p> This is an example of MicroService for getting idea how to create it and configuring.  Also i will update it day by day, so repository is still continuing.</p>
+<p> This is an example of MicroService to get idea how to create it and configuring. Also i will update it day by day, so repository is still continuing.</p>
 
 <p> Road Map : </p>
 <p> 1-  I will add more comment lines to the project to make it more understandable.</p>
