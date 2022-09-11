@@ -13,7 +13,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MicroServiceProject" expanded="True" selected="True" />
+          <Node name="MicroServiceProject" expanded="True">
+            <Node name="Services" expanded="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
