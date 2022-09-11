@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a46X0Fe52P3m57N11ud8Qtpgf9Pz4cW9j1dvwweW5B9WKfb6r3jVuRYerNNdPG5WpS837aziDdddRmp+097LCw==",
+  "dgSpecHash": "1RPY/HgJVwIBn3ilT0WJy3TI0UpgC5mx4ncHh0vFrwZWozlFxARgW8xKjjwghOB3NQXWc1+51liS2hvp5+L/Cw==",
   "success": true,
   "projectFilePath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/ozzyozmencelik/.nuget/packages/microsoft.azure.servicebus/5.2.0/microsoft.azure.servicebus.5.2.0.nupkg.sha512",
     "/Users/ozzyozmencelik/.nuget/packages/microsoft.azure.services.appauthentication/1.0.3/microsoft.azure.services.appauthentication.1.0.3.nupkg.sha512",
     "/Users/ozzyozmencelik/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/ozzyozmencelik/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/Users/ozzyozmencelik/.nuget/packages/microsoft.identitymodel.clients.activedirectory/3.14.2/microsoft.identitymodel.clients.activedirectory.3.14.2.nupkg.sha512",
     "/Users/ozzyozmencelik/.nuget/packages/microsoft.identitymodel.jsonwebtokens/5.4.0/microsoft.identitymodel.jsonwebtokens.5.4.0.nupkg.sha512",
     "/Users/ozzyozmencelik/.nuget/packages/microsoft.identitymodel.logging/5.4.0/microsoft.identitymodel.logging.5.4.0.nupkg.sha512",

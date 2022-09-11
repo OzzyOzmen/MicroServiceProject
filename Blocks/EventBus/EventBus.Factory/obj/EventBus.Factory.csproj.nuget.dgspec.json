@@ -45,6 +45,10 @@
             "Microsoft.Azure.ServiceBus": {
               "target": "Package",
               "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
