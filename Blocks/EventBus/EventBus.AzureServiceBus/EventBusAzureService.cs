@@ -189,7 +189,7 @@ namespace EventBus.AzureServiceBus
             subsManager.RemoveSubscription<T,Thandler>();
         }
 
-        public void Dispose()
+        public override void Dispose()
         {
             topicClient.CloseAsync().GetAwaiter().GetResult();
             managementClient.CloseAsync().GetAwaiter().GetResult();
