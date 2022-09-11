@@ -41,8 +41,7 @@ namespace EventBus.Base
     public enum EventBusType
     {
         RabbirMQ=0,
-        AzureServiceBus=1,
-        //MongoDb =0
+        AzureServiceBus=1
        
     }
 }

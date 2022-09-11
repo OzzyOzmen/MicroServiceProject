@@ -27,7 +27,7 @@ namespace EventBus.AzureServiceBus
         {
             if (topicClient == null && topicClient.IsClosedOrClosing)
             {
-                topicClient = new TopicClient(eventBusConfig.EventBusConnectionString, eventBusConfig.DefaultTopicName,RetryPolicy.Default);
+                topicClient = new TopicClient(eventBusConfig.EventBusConnectionString, eventBusConfig.DefaultTopicName, RetryPolicy.Default);
             }
 
             // Ensure that topic already exist
@@ -45,15 +45,15 @@ namespace EventBus.AzureServiceBus
 
             eventName = ProcessEventName(eventName); // example : trimmed as SomethingCreated
 
-            var eventStr= JsonConvert.SerializeObject(@event);
+            var eventStr = JsonConvert.SerializeObject(@event);
             var bodyArr = Encoding.UTF8.GetBytes(eventStr);
-     
+
             var message = new Message()
             {
                 MessageId = Guid.NewGuid().ToString(),
                 Body = bodyArr,
-                Label =eventName
-               
+                Label = eventName
+
             };
 
             topicClient.SendAsync(message).GetAwaiter().GetResult();
@@ -71,7 +71,7 @@ namespace EventBus.AzureServiceBus
                 RegisterSubscriptionClientMessageHandler(subScriptionClient);
             }
 
-            logger.LogInformation("Subscribing to event {EventName} with {EventHandler}",eventName,typeof(Thandler).Name);
+            logger.LogInformation("Subscribing to event {EventName} with {EventHandler}", eventName, typeof(Thandler).Name);
             subsManager.AddSubscription<T, Thandler>();
 
         }
@@ -86,12 +86,12 @@ namespace EventBus.AzureServiceBus
                     var messageData = Encoding.UTF8.GetString(message.Body);
 
                     //Complate the message for let it not recieved again.
-                    if (await ProcessEvent(ProcessEventName(eventName),messageData))
+                    if (await ProcessEvent(ProcessEventName(eventName), messageData))
                     {
                         await subscriptionClient.CompleteAsync(message.SystemProperties.LockToken);
                     }
                 },
-                new MessageHandlerOptions(ExceptionRecievedHandler) { MaxConcurrentCalls =10,AutoComplete =false});
+                new MessageHandlerOptions(ExceptionRecievedHandler) { MaxConcurrentCalls = 10, AutoComplete = false });
         }
 
         private Task ExceptionRecievedHandler(ExceptionReceivedEventArgs exceptionReceivedEventArgs)
@@ -99,21 +99,21 @@ namespace EventBus.AzureServiceBus
             var ex = exceptionReceivedEventArgs.Exception;
             var context = exceptionReceivedEventArgs.ExceptionReceivedContext;
 
-            logger.LogError(ex,"Error handling message: {ExceptionMessage} - Context: {@ExceptionContext}",ex.Message,context);
+            logger.LogError(ex, "Error handling message: {ExceptionMessage} - Context: {@ExceptionContext}", ex.Message, context);
 
             return Task.CompletedTask;
         }
 
         private SubscriptionClient CreateSubscriptionClient(string eventName)
         {
-            return new SubscriptionClient(eventBusConfig.EventBusConnectionString,eventBusConfig.DefaultTopicName,GetSubName(eventName));
+            return new SubscriptionClient(eventBusConfig.EventBusConnectionString, eventBusConfig.DefaultTopicName, GetSubName(eventName));
         }
 
         private ISubscriptionClient CreateSubscriptionClintIfNotExist(string eventName)
         {
-           var subClient = CreateSubscriptionClient(eventName);
+            var subClient = CreateSubscriptionClient(eventName);
 
-           var exist= managementClient.SubscriptionExistsAsync(eventBusConfig.DefaultTopicName,GetSubName(eventName)).GetAwaiter().GetResult();
+            var exist = managementClient.SubscriptionExistsAsync(eventBusConfig.DefaultTopicName, GetSubName(eventName)).GetAwaiter().GetResult();
 
             if (!exist)
             {
@@ -121,7 +121,7 @@ namespace EventBus.AzureServiceBus
                 RemoveDefaultRule(subClient);
             }
 
-            CreateRuleIfNotExist(ProcessEventName(eventName),subClient);
+            CreateRuleIfNotExist(ProcessEventName(eventName), subClient);
 
             return subClient;
         }
@@ -141,7 +141,7 @@ namespace EventBus.AzureServiceBus
             }
         }
 
-        private void CreateRuleIfNotExist(string eventName,ISubscriptionClient subscriptionClient)
+        private void CreateRuleIfNotExist(string eventName, ISubscriptionClient subscriptionClient)
         {
             bool ruleExist;
 
@@ -159,7 +159,7 @@ namespace EventBus.AzureServiceBus
             {
                 subscriptionClient.AddRuleAsync(new RuleDescription
                 {
-                    Filter = new CorrelationFilter { Label = eventName},
+                    Filter = new CorrelationFilter { Label = eventName },
                     Name = eventName
                 }).GetAwaiter().GetResult();
             }
@@ -182,11 +182,11 @@ namespace EventBus.AzureServiceBus
             }
             catch (MessagingEntityNotFoundException)
             {
-                logger.LogWarning("The messaging entiity{EventName} could not be found.",eventName);
+                logger.LogWarning("The messaging entiity{EventName} could not be found.", eventName);
             }
-            logger.LogInformation("Unsubscribing from event {EventName}",eventName);
+            logger.LogInformation("Unsubscribing from event {EventName}", eventName);
 
-            subsManager.RemoveSubscription<T,Thandler>();
+            subsManager.RemoveSubscription<T, Thandler>();
         }
 
         public override void Dispose()
