@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{DEC64BCE-2BCC-4E04-AFE6-2AC7841F7469}|Default">
-  <MonoDevelop.Ide.ItemProperties.Services.PostApi.PostApi.PostApi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.Blocks.EventBus.EventBus.AzureServiceBus FirstBuild="True" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <DisabledProjects>
     <String>Blocks/EventBus/EventBus.AzureService/EventBus.AzureServiceBus.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.Services.UserApi.Users.Api PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.ApiGateway.ApiGateway PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.NotificationApi.NotificationApi.NotificationApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MicroServiceProject" expanded="True">
-            <Node name="Services" expanded="True" />
-          </Node>
+          <Node name="MicroServiceProject" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -23,8 +19,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Services.NotificationApi.NotificationApi.NotificationApi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Services.PostApi.PostApi.PostApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.ApiGateway.ApiGateway PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Blocks.EventBus.EventBus.AzureServiceBus FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Services.UserApi.Users.Api PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>
