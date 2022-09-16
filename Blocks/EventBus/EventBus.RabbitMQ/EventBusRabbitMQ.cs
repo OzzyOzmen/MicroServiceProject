@@ -14,9 +14,11 @@ namespace EventBus.RabbitMQ
 {
     public class EventBusRabbitMQ : BaseEventBus
     {
-
+        // 
         RabbitMQPersistantConnection persistantConnection;
+
         private readonly IConnectionFactory connectionFactory;
+
         private readonly IModel consumerChannel;
         
 
@@ -117,6 +119,7 @@ namespace EventBus.RabbitMQ
         public override void Subscribe<T, Thandler>()
         {
             var eventName = typeof(T).Name;
+
             eventName = ProcessEventName(eventName);
 
             if (!subsManager.HasSubscriptionForEvent(eventName))
