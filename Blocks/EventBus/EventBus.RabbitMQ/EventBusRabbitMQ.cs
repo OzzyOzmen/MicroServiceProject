@@ -14,31 +14,39 @@ namespace EventBus.RabbitMQ
 {
     public class EventBusRabbitMQ : BaseEventBus
     {
-        // 
+        // created persist connection
         RabbitMQPersistantConnection persistantConnection;
 
+        // create connection factory 
         private readonly IConnectionFactory connectionFactory;
 
+        // create consumer channel with IModel
         private readonly IModel consumerChannel;
         
 
         public EventBusRabbitMQ(EventBusConfig config, IServiceProvider serviceProvider) : base(config, serviceProvider)
         {
+            // check if the connection is empty which comes from EventBusConfig
             if (config.Connection != null)
             {
+                // serializa to connection
                 var connJson = JsonConvert.SerializeObject(config.Connection, new JsonSerializerSettings()
                 {
                     // self referencing loop detected for property
+                    // if u dont set id then u will face to error.
                     ReferenceLoopHandling = ReferenceLoopHandling.Ignore
 
                 });
+                // then deserialize to get connection factory
                 connectionFactory = JsonConvert.DeserializeObject<IConnectionFactory>(connJson);
             }
+            // else cast with default values.
             else connectionFactory = new ConnectionFactory();
 
-
+            //create persistant connection for 
             persistantConnection = new RabbitMQPersistantConnection(connectionFactory,config.ConnectionRetryCount);
 
+            // create consumer channel once
             consumerChannel = CreateConsumerChannel();
 
             subsManager.OnEventRemoved += SubsManager_OnEventRemoved;
@@ -62,14 +70,17 @@ namespace EventBus.RabbitMQ
             }
         }
 
+        // check if persistant connection is is connect then try to connect .
         public IModel CreateConsumerChannel()
         {
             if (!persistantConnection.IsConnected)
             {
                 persistantConnection.TryConnect();
             }
+            //created model
             var channel = persistantConnection.CreateModel();
 
+            // declare to exchange
             channel.ExchangeDeclare(exchange: eventBusConfig.DefaultTopicName, type: "direct");
 
             return channel;
@@ -141,6 +152,7 @@ namespace EventBus.RabbitMQ
             }
 
             subsManager.AddSubscription<T, Thandler>();
+
             StartBasicConsume(eventName);
 
         }
