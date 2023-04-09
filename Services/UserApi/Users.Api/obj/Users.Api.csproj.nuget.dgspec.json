@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/UserApi/Users.Api/Users.Api.csproj": {}
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/UserApi/Users.Api/Users.Api.csproj": {}
   },
   "projects": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/UserApi/Users.Api/Users.Api.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/UserApi/Users.Api/Users.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/UserApi/Users.Api/Users.Api.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/UserApi/Users.Api/Users.Api.csproj",
         "projectName": "Users.Api",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/UserApi/Users.Api/Users.Api.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/UserApi/Users.Api/Users.Api.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/UserApi/Users.Api/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/UserApi/Users.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"

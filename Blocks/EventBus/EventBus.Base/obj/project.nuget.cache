@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uAJ6HZ1xILpxeohxozlsgmHTJ99R8NsXSZ+E1ercy14Ar6vovWs8xP37zJNhAuPjNZqHswnrPm4qXlhAgFPUdg==",
+  "dgSpecHash": "yhiQzKir8JETlqYAL3tI3GRRXW/JbR0R9x2cywOrJ/Jj6eYDxQc2vZnjDf4gdULmY1qT1StpsU9TChc4MmHPww==",
   "success": true,
-  "projectFilePath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
+  "projectFilePath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
   "expectedPackageFiles": [
     "/Users/ozzyozmencelik/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/ozzyozmencelik/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"

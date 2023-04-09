@@ -5,10 +5,14 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -17,19 +21,27 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Polly/7.2.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Polly.dll": {}
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Polly.dll": {}
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "RabbitMQ.Client/6.4.0": {
@@ -39,10 +51,14 @@
           "System.Threading.Channels": "4.7.1"
         },
         "compile": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -57,10 +73,14 @@
       "System.Threading.Channels/4.7.1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
         }
       },
       "EventBus.Base/1.0.0": {
@@ -257,11 +277,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
+      "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
       "projectName": "EventBus.Factory",
-      "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
+      "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
       "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-      "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/obj/",
+      "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Factory/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
@@ -276,11 +296,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
-              "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj"
+            "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+              "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj"
             },
-            "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
-              "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj"
+            "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
+              "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj": {}
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj": {}
   },
   "projects": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
         "projectName": "EventBus.Base",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
         "projectName": "EventBus.Factory",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Factory/EventBus.Factory.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Factory/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Factory/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
@@ -88,11 +88,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
-                "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj"
+              "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+                "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj"
               },
-              "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
-                "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj"
+              "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
+                "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj"
               }
             }
           }
@@ -125,14 +125,14 @@
         }
       }
     },
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
         "projectName": "EventBus.RabbitMQ",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/EventBus.RabbitMQ.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.RabbitMQ/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
@@ -147,8 +147,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
-                "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj"
+              "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+                "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj"
               }
             }
           }

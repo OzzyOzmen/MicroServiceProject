@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/NotificationApi.INFRASTRUCTURE.csproj": {}
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/NotificationApi.INFRASTRUCTURE.csproj": {}
   },
   "projects": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj",
         "projectName": "NotificationApi.DTO",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
@@ -78,14 +78,14 @@
         }
       }
     },
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/NotificationApi.INFRASTRUCTURE.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/NotificationApi.INFRASTRUCTURE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/NotificationApi.INFRASTRUCTURE.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/NotificationApi.INFRASTRUCTURE.csproj",
         "projectName": "NotificationApi.INFRASTRUCTURE",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/NotificationApi.INFRASTRUCTURE.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/NotificationApi.INFRASTRUCTURE.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.INFRASTRUCTURE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
@@ -100,11 +100,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj": {
-                "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj"
+              "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj": {
+                "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.DTO/NotificationApi.DTO.csproj"
               },
-              "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj": {
-                "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj"
+              "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj": {
+                "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj"
               }
             }
           }
@@ -159,14 +159,14 @@
         }
       }
     },
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj",
         "projectName": "NotificationApi.ORM",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/NotificationApi.ORM.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Services/NotificationApi/NotificationApi.ORM/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"

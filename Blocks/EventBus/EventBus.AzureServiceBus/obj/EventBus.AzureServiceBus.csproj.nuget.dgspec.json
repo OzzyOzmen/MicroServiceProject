@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj": {}
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj": {}
   },
   "projects": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj",
         "projectName": "EventBus.AzureServiceBus",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/EventBus.AzureServiceBus.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.AzureServiceBus/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
-                "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj"
+              "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+                "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
         "projectName": "EventBus.Base",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/EventBus.Base.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/Blocks/EventBus/EventBus.Base/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/Blocks/EventBus/EventBus.Base/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"

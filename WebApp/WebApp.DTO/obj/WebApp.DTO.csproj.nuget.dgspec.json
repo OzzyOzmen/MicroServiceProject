@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebApp/WebApp.DTO/WebApp.DTO.csproj": {}
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/WebApp/WebApp.DTO/WebApp.DTO.csproj": {}
   },
   "projects": {
-    "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebApp/WebApp.DTO/WebApp.DTO.csproj": {
+    "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/WebApp/WebApp.DTO/WebApp.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebApp/WebApp.DTO/WebApp.DTO.csproj",
+        "projectUniqueName": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/WebApp/WebApp.DTO/WebApp.DTO.csproj",
         "projectName": "WebApp.DTO",
-        "projectPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebApp/WebApp.DTO/WebApp.DTO.csproj",
+        "projectPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/WebApp/WebApp.DTO/WebApp.DTO.csproj",
         "packagesPath": "/Users/ozzyozmencelik/.nuget/packages/",
-        "outputPath": "/Users/ozzyozmencelik/Projects/MicroServiceProject/WebApp/WebApp.DTO/obj/",
+        "outputPath": "/Users/ozzyozmencelik/Projects/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/MicroServiceProject/WebApp/WebApp.DTO/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ozzyozmencelik/.nuget/NuGet/NuGet.Config"
